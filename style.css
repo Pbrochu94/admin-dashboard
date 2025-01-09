@@ -253,3 +253,18 @@ input[type="search"]{
     justify-content: end;
     margin-top: 2%;
 }
+
+.announcement-vertical-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 90%;
+    width: 100%;
+    padding: 5% 3%;
+    gap: 8%;
+}
+
+.announcement-card, .trending-card{
+    background-color: rgb(58, 9, 9);
+    border-radius: 12px;
+}
