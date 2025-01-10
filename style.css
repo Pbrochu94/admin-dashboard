@@ -330,4 +330,6 @@ p>span{
     width: 44px;
 }
 
-
+.project-cards, .announcement-card{
+    box-shadow: 2px 2px 5px rgba(100, 99, 99, 0.473);
+}
