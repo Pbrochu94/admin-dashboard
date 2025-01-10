@@ -120,6 +120,7 @@ body{
     align-items: center;
     font-family: var(--basic-font-family);
     font-weight: var(--custom-bold);
+    overflow: hidden;
 }
 
 input[type="search"]{
@@ -138,11 +139,13 @@ input[type="search"]{
 .top-row-right-side>img[src="img/cat-icon.png"]{
     height: 70px;
     width: 70px;
+    overflow: hidden;
 }
 
 .bottom-row{
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .bottom-row-left-side>img{
@@ -191,6 +194,7 @@ input[type="search"]{
     background-color:var(--gray-bk-color);
     grid-column:2/3;
     grid-row:2/3;
+    overflow: hidden;
 }
 
 .main>*{
